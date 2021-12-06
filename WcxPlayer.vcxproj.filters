@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8001d0aa-9de3-4257-9d91-907c57c64f05}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{23fd5d21-d90d-4f11-aeb8-ff217351a8e7}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{40dbac9a-2455-4e63-b29e-977cc51f4511}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdvDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BigTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DShowMP3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EquFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeEqu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FFTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuningText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleBufferManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekBarWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinVerticleScrollbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VolBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WcxPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WcxPlayerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAmpAboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MP3\Wmp3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MP3\wmp3decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MP3\wstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MP3\wwave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xSkinButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WcxPlayer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DShowMP3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EquFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeEqu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FFTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MEMDC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuningText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleBufferManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleIter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekBarWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinVerticleScrollbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VolBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WcxPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WcxPlayerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAmpAboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MP3\wmp3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MP3\wmp3decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MP3\wstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MP3\wwave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xSkinButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\AdvCtrl.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\AdvCtrl2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ARISA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BaseSkin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BaseSkin2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BaseSkin3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BaseSkin4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BaseSkin5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BaseSkin6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HELP1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HELP2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Mp3INFO.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PauseBtnFcs.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PauseBtnNrm.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PauseBtnPrs.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PlayBtnFcs.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PlayBtnMsk.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PlayBtnMsk2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PlayBtnMsk3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PlayBtnNrm.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PlayBtnPrs.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SEEKBACK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\seekbuton.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SEEKTHUMB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\seekvolume.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\slidervolume.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sound.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StopBtnFcs.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StopBtnNrm.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StopBtnPrs.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\titik2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VerticleScrollBarSpan.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VerticleScrollBarSpan2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VerticleScrollBarThumb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VolSlide1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VolSlide2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VolThumb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\WcxPlayer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\WcxPlayer.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,406 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WcxPlayer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\sound.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 144, 249
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "WINAmpun ver 0.0.1"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,45,224,50,14,WS_GROUP
+    CONTROL         162,IDC_STATIC,"Static",SS_BITMAP | WS_BORDER,20,7,105,
+                    85
+    CTEXT           "Built using VC++, MFC and DShow",IDC_STATIC,7,97,130,11
+    CTEXT           "Thanks to :",IDC_STATIC,7,110,130,10
+    CTEXT           "Arisa Mizuhara, for being so beautiful",IDC_STATIC,7,
+                    210,130,10
+    CTEXT           "Greg Elis for CListCtrl skin article",IDC_STATIC,7,125,
+                    130,10
+    CTEXT           "Davide Pizzolato for Skin Button Class",IDC_STATIC,7,
+                    137,130,10
+    CTEXT           "Awesome people at CodeProject for GDI articles",
+                    IDC_STATIC,8,149,130,18
+    CTEXT           "Seishiko Kyoko; for the time we ' ve spent together, although only via YM :)",
+                    IDC_STATIC,7,191,130,18
+    CTEXT           "Zoran Cindori for awesome MP3 libs",IDC_STATIC,7,168,
+                    130,12
+    CTEXT           "Michael Dunn for Drag Drop article",IDC_STATIC,7,179,
+                    130,12
+END
+
+IDD_WCXPLAYER_DIALOG DIALOGEX 0, 0, 408, 242
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON_PLAY,171,209,19,12
+    PUSHBUTTON      "",IDC_BUTTON_STOP,195,209,19,12
+    PUSHBUTTON      "",IDC_BUTTON_PAUSE,219,209,19,12
+    CONTROL         "List2",IDC_PLAYLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOCOLUMNHEADER | WS_TABSTOP,38,105,
+                    330,64
+    GROUPBOX        "",IDC_FAKE_EQU,68,39,108,42,BS_FLAT
+    CTEXT           "",IDC_RUNTEXT,214,78,178,10
+    CTEXT           "",IDC_TIME,255,42,98,33,NOT WS_VISIBLE
+END
+
+IDD_INFO DIALOG DISCARDABLE  0, 0, 222, 107
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,168,85,37,14
+    LTEXT           "",IDC_PATH,19,19,192,18
+    LTEXT           "",IDC_TITLE,19,37,192,12
+    LTEXT           "",IDC_ARTIST,19,62,194,12
+    LTEXT           "",IDC_SAMPLE,19,50,125,12
+    LTEXT           "",IDC_BITRATE,19,75,125,12
+    LTEXT           "",IDC_CHANNEL,19,88,125,12
+END
+
+IDD_ABOUTBOX2 DIALOG DISCARDABLE  0, 0, 209, 390
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "WINAmpun ver 0.0.3"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,75,363,50,14,WS_GROUP
+    CONTROL         162,IDC_STATIC,"Static",SS_BITMAP | WS_BORDER,50,7,105,
+                    85
+    CTEXT           "Built using VC++, MFC,GDI and DShow",IDC_STATIC,7,97,
+                    195,11
+    CTEXT           "Thanks to :",IDC_STATIC,7,254,195,10
+    CTEXT           "Greg Elis for CListCtrl skin article",IDC_STATIC,7,268,
+                    195,10
+    CTEXT           "Davide Pizzolato for Skin Button Class",IDC_STATIC,7,
+                    283,195,10
+    CTEXT           "Awesome people at CodeProject for GDI articles",
+                    IDC_STATIC,7,297,195,15
+    CTEXT           "Zoran Cindori for awesome MP3 libs",IDC_STATIC,7,311,
+                    195,12
+    CTEXT           "Michael Dunn for Drag Drop article",IDC_STATIC,7,326,
+                    195,12
+    CTEXT           "Concept + Code : Widyo (widyo.wicaksono@gmail.com)",
+                    IDC_STATIC,7,110,195,9
+    CTEXT           "Art : Syaiful Huzen (huzen_hz@yahoo.com)",IDC_STATIC,7,
+                    122,195,9
+    CTEXT           "Steve de Toni for FFT Implementation",IDC_STATIC,7,342,
+                    195,12
+    CTEXT           "Beta Testers :",IDC_STATIC,7,145,195,9
+    CTEXT           "Yuda Munar (napakalas@yahoo.com)",IDC_STATIC,7,157,195,
+                    9
+    CTEXT           "Jodik Datu (jodikbox@yahoo.com)",IDC_STATIC,7,169,195,9
+    CTEXT           "Armand S (itkabeos_dnamra@yahoo.com)",IDC_STATIC,8,180,
+                    195,9
+    CTEXT           "Andi SS (merurubow@yahoo.com)",IDC_STATIC,8,192,195,9
+    CTEXT           "Indri Putri H (sawamura_kiriko@yaho.co.id)",IDC_STATIC,
+                    7,204,195,9
+    CTEXT           "Anton Sutikno (liquidzanuff@gmail.com)",IDC_STATIC,7,
+                    217,195,9
+    CTEXT           "Deddy C (ddy_comp@yahoo.com)",IDC_STATIC,7,230,195,9
+END
+
+IDD_HELPDLG DIALOG DISCARDABLE  0, 0, 282, 131
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,253,110,22,14
+END
+
+IDD_ADV DIALOG DISCARDABLE  0, 0, 130, 40
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,2
+ PRODUCTVERSION 0,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "WinAMPun MP3 Player\0"
+            VALUE "FileVersion", "0, 0, 0, 2\0"
+            VALUE "InternalName", "WcxPlayer\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "WcxPlayer.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "WinAMPun MP3 Player\0"
+            VALUE "ProductVersion", "0, 0, 0, 2\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_WCXPLAYER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 401
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+
+    IDD_ABOUTBOX2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 383
+    END
+
+    IDD_HELPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_ADV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 33
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BTNPLAYNRM          BITMAP  DISCARDABLE     "res\\PlayBtnNrm.bmp"
+IDB_BTNPLAYFCS          BITMAP  DISCARDABLE     "res\\PlayBtnFcs.bmp"
+IDB_BTNPLAYPRS          BITMAP  DISCARDABLE     "res\\PlayBtnPrs.bmp"
+IDB_BTNMASK3            BITMAP  DISCARDABLE     "res\\PlayBtnMsk3.bmp"
+IDB_BTNSTOPNRM          BITMAP  DISCARDABLE     "res\\StopBtnNrm.bmp"
+IDB_BTNSTOPFCS          BITMAP  DISCARDABLE     "res\\StopBtnFcs.bmp"
+IDB_BTNSTOPPRS          BITMAP  DISCARDABLE     "res\\StopBtnPrs.bmp"
+IDB_BTNPAUSENRM         BITMAP  DISCARDABLE     "res\\PauseBtnNrm.bmp"
+IDB_BTNPAUSEPRS         BITMAP  DISCARDABLE     "res\\PauseBtnPrs.bmp"
+IDB_VERTICLE_SCROLLBAR_THUMB BITMAP  DISCARDABLE     "res\\VerticleScrollBarThumb.bmp"
+IDB_VERTICLE_SCROLLBAR_SPAN2 BITMAP  DISCARDABLE     "res\\VerticleScrollBarSpan2.bmp"
+IDB_ARISA               BITMAP  DISCARDABLE     "res\\ARISA.bmp"
+IDB_BASESKIN4           BITMAP  DISCARDABLE     "res\\BaseSkin6.bmp"
+IDB_MP3INFO             BITMAP  DISCARDABLE     "res\\Mp3INFO.bmp"
+IDB_HELP1               BITMAP  DISCARDABLE     "res\\HELP1.bmp"
+IDB_HELP2               BITMAP  DISCARDABLE     "res\\HELP2.bmp"
+IDB_ADVSKIN             BITMAP  DISCARDABLE     "res\\AdvCtrl2.bmp"
+IDB_BTNPAUSEFCS         BITMAP  DISCARDABLE     "res\\PauseBtnFcs.bmp"
+IDB_BITMAP0             BITMAP  DISCARDABLE     "res\\0.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\1.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\3.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\4.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\5.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\6.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\7.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\8.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\9.bmp"
+IDB_SEMICOLON           BITMAP  DISCARDABLE     "res\\titik2.bmp"
+IDB_SEEKVOL             BITMAP  DISCARDABLE     "res\\seekvolume.bmp"
+IDB_SEEKVOLTHUMB        BITMAP  DISCARDABLE     "res\\slidervolume.bmp"
+IDB_BASESEEK            BITMAP  DISCARDABLE     "res\\bitmap10.bmp"
+IDB_BASESEEKTHUMB       BITMAP  DISCARDABLE     "res\\seekbuton.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_LISTMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Remove",                      IDC_DELETE
+        MENUITEM "Remove All",                  IDC_REMALL
+        MENUITEM "Get Info",                    IDC_GETINFO
+    END
+END
+
+IDR_MINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Restore",                     IDC_RESTOREAPP
+        MENUITEM "Exit",                        IDC_EXITMINIMIZE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCMAIN ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            IDC_ABOUT,              VIRTKEY, CONTROL, NOINVERT
+    "C",            IDC_ADV,                VIRTKEY, CONTROL, NOINVERT
+    "H",            IDC_HELPD,              VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      IDC_MINIMIZETRAY,       VIRTKEY, NOINVERT
+    "X",            IDC_EXIT,               VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About WinAMPun"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\WcxPlayer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
